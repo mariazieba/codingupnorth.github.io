@@ -2,7 +2,6 @@
 layout: post
 title:  "Convert HTML file to PDF document using WkHtmlToPdf-DotNet"
 date:   2022-07-24 18:38:39 +0200
-categories: programming dotnet
 ---
 
 - [Introduction](#introduction)
@@ -25,7 +24,7 @@ Many web apps return documents - think bank statements, certificates, or invoice
  ## Setup
 I will focus on the pdf generation, so we will jump right into the project. Open Visual Studio and clone [the PdfGenerator repository](https://github.com/mariazieba/PdfGenerator). This is a simple web API with one endpoint that will return a pdf file, with a certificate that a runner has completed a run:
 
-![screenshot](../../../assets/certificate.png)
+![screenshot](../assets/certificate.png)
 
 *Note that the HTML Template file placed in the Templates folder has the following set of properties - this is set to copy the file to the output directory so that we can access and read it.*
 
