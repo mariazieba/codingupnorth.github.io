@@ -4,15 +4,13 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hi!
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I am Maria, a .NET developer based in Trondheim, Norway. I started my programming journey back in 2015, as a SharePoint developer (ouch!) and later switched to .NET. 
+- Law school graduate, postgraduate in software engineering, hope to get my CS degree one day
+- Azure certified (AZ-900, AZ-204, working on getting AZ-400)
+- I speak Polish, Norwegian, English and French.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+I started this page to track things I learned - be it programming or language learning.
 
-
-[jekyll-organization]: https://github.com/jekyll
+You can find me on [Github](https://github.com/mariazieba) and [Twitter](https://twitter.com/codingupnorth).
