@@ -24,7 +24,7 @@ Many web apps return documents - think bank statements, certificates, or invoice
  ## Setup
 I will focus on the pdf generation, so we will jump right into the project. Open Visual Studio and clone [the PdfGenerator repository](https://github.com/mariazieba/PdfGenerator). This is a simple web API with one endpoint that will return a pdf file, with a certificate that a runner has completed a run:
 
-![screenshot](../../assets/certificate.png)
+![screenshot](../../../assets/certificate.png)
 
 *Note that the HTML Template file placed in the Templates folder has the following set of properties - this is set to copy the file to the output directory so that we can access and read it.*
 
@@ -36,7 +36,7 @@ Now, time to add a necessary NuGet package to the project:
 - Search for “WkHtmlToPdfDotnet”
 - Install the following package - *note it has the most downloads and a recent update - some other forks are not maintained.*
 
-![screenshot](../assets/1.png)
+![screenshot](../../../assets/1.png)
 
 ## Project structure - Entities, Repository, DBContext
 Once installed, we can take a look at the project structure. It is a simple web API with one GET endpoint that will return a .pdf file to download. It has three entity classes, a Runner, a Race, and a joint entity - RaceRunner. Because we need an additional property on the joint entity, we need to explicitly define it - hence the RaceRunner class.
@@ -218,16 +218,16 @@ FooterSettings = { FontSize = 9, Left = "Page [page] of [toPage]", Line = true, 
 
 Here is the output of the page count setting for the footer:
 
-![screenshot](../assets/2.png)
+![screenshot](../../../assets/2.png)
 
 ### Generate the document
 Run the project. In the browser, select the only endpoint and click on 'Try it out'. Enter 1 in both fields, then click the 'Execute' button:
 
-![screenshot](../assets/swagger1.png)
+![screenshot](../../../assets/swagger1.png)
 
 This is the result you should get. Download the file.
 
-![screenshot](../assets/swagger2.png)
+![screenshot](../../../assets/swagger2.png)
 
 ### Issues and tips
 #### Using external css files - Wkhtmltopdf and Bootstrap
@@ -245,7 +245,7 @@ And now, let’s wrap the finish time in one of the Bootstrap components:
 
 And try to generate the document:
 
-![screenshot](../assets/3.png)
+![screenshot](../../../assets/3.png)
 
 #### The file generates for the first time and then shows raw text or runs for a long time, then crashes
 For multi-threaded and web applications, SynchronizedConverter should be used. Also, it should be **registered as a singleton** in the DI container:
@@ -291,7 +291,7 @@ Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac tu
 
 Generate the document now - you will see how the page breaking works.
 
-![paging.gif](../assets/paging.gif)
+![paging.gif](../../../assets/paging.gif)
 
 #### Blank page at the end of the document
 You generate a document and a blank page is added at the end of it. This is not necessarily a deal-breaker, but if you want it out, make sure the bottom margin on the last page is set to 0.
