@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Two ways of creating Blazor components"
+title:  "Separate view and logic in a Blazor component"
 date:   2022-07-25
 ---
 
-# Two ways of creating Blazor components
+## Two ways of creating Blazor components
 
 In most of Blazor tutorials I've seen, Blazor components have been shown like this:
 
