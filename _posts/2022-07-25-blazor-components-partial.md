@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Two ways of creating Blazor components"
+date:   2022-07-25
+---
+
 # Two ways of creating Blazor components
 
 In most of Blazor tutorials I've seen, Blazor components have been shown like this:
