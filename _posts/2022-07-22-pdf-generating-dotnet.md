@@ -21,7 +21,7 @@ date:   2022-07-24 18:38:39 +0200
 ## Introduction
 Many web apps return documents - think bank statements, certificates, or invoices. The task is not as easy as it sounds, but fortunately - there are options. In this post, I will demonstrate how to achieve that goal by converting an HTML page with dynamic content into a PDF document. This will be done using an open-source WkHtmlToPdf-DotNet library.
 
- ## Setup
+## Setup
 I will focus on the pdf generation, so we will jump right into the project. Open Visual Studio and clone [the PdfGenerator repository](https://github.com/mariazieba/PdfGenerator). This is a simple web API with one endpoint that will return a pdf file, with a certificate that a runner has completed a run:
 
 ![screenshot](../../../assets/certificate.png)
