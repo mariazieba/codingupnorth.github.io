@@ -25,12 +25,12 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
-remote_theme: jekyll/minima
+remote_theme: jekyll/bulma
 minima:
   skin: dark
   social_links:
     twitter: codingupnorth
-    github: mariazieba
+    github: codingupnorth
     linkedin: mariazw
 plugins:
   - jekyll-feed
